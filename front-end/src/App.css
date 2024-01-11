@@ -1,0 +1,50 @@
+.nav-li li{
+    display: inline-block;
+    padding: 10px;
+}
+.nav-li{
+ margin: 0;
+ padding: 5px;
+ text-decoration: none;
+ background-color: skyblue;
+} 
+.nav-li li a{
+    text-decoration: none;
+    color: azure;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    background: skyblue;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+}
+.registerhere{
+    font-size: 1.3em;
+    color: crimson;
+    text-align: center;
+    margin-top: 1%;
+    letter-spacing: 2px;
+}
+.inputboxes{
+    align-items: center;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.inputproperty{
+    padding: 0.6em;
+    border-radius: 6px;
+    width: 20%;
+}
+.signupbutton{
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    background: skyblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 9px;
+}
