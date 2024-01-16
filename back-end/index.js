@@ -5,4 +5,6 @@ console.log("running");
 const data = async =>{
     mongoose.connect("")
 }
+
+
 app.listen(5000);
