@@ -14,7 +14,6 @@ const Signup = () => {
      <input className='inputproperty' type='text' placeholder='Name' value={name} onChange={(e)=>setName(e.target.value)}/>
      <input className='inputproperty' type='text' placeholder='Email' value={email} onChange={(e)=>setEmail>(e.target.value)}/>
      <input className='inputproperty' type='Password' placeholder='Password' value={password} onChange={(e)=>setPassword(e.target.value)}/>
-     <button className='signupbutton' onClick={()=>opennotepad()}>Signup</button>
      </div>
     </div>
   )
